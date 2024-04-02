@@ -132,6 +132,7 @@ namespace SOUI
 
 	void CRulerDrugCode::OnPaint(IRenderTarget* pRT)
 	{
+		pRT->SetAntiAlias(TRUE);
 		CRect rc;
 		GetClientRect(&rc);
 

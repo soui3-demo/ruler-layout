@@ -132,6 +132,7 @@ namespace SOUI
 
 	void CRulerText::OnPaint(IRenderTarget* pRT)
 	{
+		pRT->SetAntiAlias(TRUE);
 		CRect rc;
 		GetWindowRect(&rc);
 

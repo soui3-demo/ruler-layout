@@ -137,6 +137,7 @@ namespace SOUI
 
 	void CRulerBarCode::OnPaint(IRenderTarget* pRT)
 	{
+		pRT->SetAntiAlias(TRUE);
 		CRect rc;
 		GetClientRect(&rc);
 

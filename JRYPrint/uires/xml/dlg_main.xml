@@ -20,7 +20,7 @@
 				<imgbtn name="btn_min" pos="-100,0" skin="skin_btn_min"/>
 
 				<tabctrl name="tab_operate" pos="10,[10,-10,-10" tabHeight="20" colorBkgnd="RGB(247,247,247)" tabSkin="skin_tabctrl_bg" focusable="0">
-					<page title="编辑布局" name="page_layout">
+					<page title="layout" name="page_layout">
 						<caption pos="0,0,-0,@80" colorBkgnd="#FFFFFF">
 							<button name="btn_copy" pos="0,0,@50,@20" focusable="0">复制</button>
 
@@ -54,7 +54,7 @@
 							</caption>
 						</caption>
 					</page>
-					<page title="打印设置" name="page_print">
+					<page title="printf" name="page_print">
 						<caption pos="0,0,-0,-0" colorBkgnd="RGB(247,247,247)">
 						</caption>
 					</page>
