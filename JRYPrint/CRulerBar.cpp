@@ -23,7 +23,7 @@ void CRulerBar::OnPaint(IRenderTarget* pRT)
 	switch (m_nBarPosition)
 	{
 	case 0:
-	{//top
+	{//top ruler
 		{//下边的线
 			double dXStart = rcRuler.left;
 			double dYStart = rcRuler.bottom - 1;
@@ -90,17 +90,18 @@ void CRulerBar::OnPaint(IRenderTarget* pRT)
 	break;
 	case 1:
 	{
-		//right
+		//right ruler
+		//TODO:
 	}
-		break;
+	break;
 	case 2:
 	{
-		//bottom
+		//bottom ruler
+		//TODO:
 	}
 	break;
 	case 3:
-	{//left
-		//top
+	{//left ruler
 		{//右边的线
 			CPoint pts[2];
 			pts[0].x = rcRuler.right - 1;
