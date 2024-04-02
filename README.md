@@ -1,7 +1,7 @@
 # RulerLayout
 
 <div align= "center">
-<img align="center" width=200 src="demo.png" />
+<img align="center" width=500 src="demo.png" />
 </div>
 
 #### 介绍
