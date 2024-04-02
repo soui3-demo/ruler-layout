@@ -1,0 +1,65 @@
+﻿<SOUI name="ImWindow"
+      title="YJP - "
+      bigIcon="ICON_LOGO:32"
+      smallIcon="ICON_LOGO:16"
+      width="1500"
+      height="1000"
+      minsize="1500,1000"
+      resizable="1"
+      appWnd="1"
+      wndType="appWnd"
+      translucent="1"
+      sendWheel2Hover="1"
+      alpha="255">
+	<root>
+		<caption pos="0,0,-0,-0" skin="skin_shadow">
+			<caption pos="10,10,-10,-10" colorBkgnd="#FFFFFF">
+				<imgbtn name="btn_close" pos="-40,0" skin="skin_btn_close"/>
+				<imgbtn name="btn_max" pos="-70,0" skin="skin_btn_max" show="1" />
+				<imgbtn name="btn_restore" pos="-70,0" skin="skin_btn_restore" show="0" />
+				<imgbtn name="btn_min" pos="-100,0" skin="skin_btn_min"/>
+
+				<tabctrl name="tab_operate" pos="10,[10,-10,-10" tabHeight="20" colorBkgnd="RGB(247,247,247)" tabSkin="skin_tabctrl_bg" focusable="0">
+					<page title="编辑布局" name="page_layout">
+						<caption pos="0,0,-0,@80" colorBkgnd="#FFFFFF">
+							<button name="btn_copy" pos="0,0,@50,@20" focusable="0">复制</button>
+
+							<button name="btn_rectangle" pos="[10,{0,@50,@20" focusable="0">矩形</button>
+							<button name="btn_ellipse" pos="[10,{0,@50,@20" focusable="0">椭圆</button>
+							<button name="btn_barcode" pos="[10,{0,@50,@20" focusable="0">条形码</button>
+							<button name="btn_drugcode" pos="[10,{0,@50,@20" focusable="0">药监码</button>
+							<button name="btn_qrcode" pos="[10,{0,@50,@20" focusable="0">二维码</button>
+							<button name="btn_text" pos="[10,{0,@50,@20" focusable="0">文本</button>
+							<button name="btn_picture" pos="[10,{0,@50,@20" focusable="0">图片</button>
+							<button name="btn_pdf" pos="[10,{0,@50,@20" focusable="0">PDF</button>
+
+							<button name="btn_addratio" pos="[10,{0,@50,@20" focusable="0">放大</button>
+							<button name="btn_subratio" pos="[10,{0,@50,@20" focusable="0">缩小</button>
+						</caption>
+						<caption pos="{0,[0,-0,-0">
+							<caption pos="40,0,-0,@40">
+								<scrollview name="scrollview_topruler" pos="0,0,-0,-0" viewSize="-1,-1" sbwid="0">
+									<rulerbar name="ruler_top" pos="0,0,@3000,@40" bar_position="0"></rulerbar>
+								</scrollview>
+							</caption>
+							<caption pos="0,40,@40,-0">
+								<scrollview name="scrollview_leftruler" pos="0,0,-0,-0" viewSize="-1,-1" sbwid="0">
+									<rulerbar name="ruler_left" pos="0,0,@40,@3000" bar_position="3"></rulerbar>
+								</scrollview>
+							</caption>
+							<caption pos="40,40,-0,-0">
+								<scrollview name="scrollview" pos="0,0,-0,-0" viewSize="-1,-1" >
+									<rulerbox name="rulerbox" pos="0,0,@3000,@3000"></rulerbox>
+								</scrollview>
+							</caption>
+						</caption>
+					</page>
+					<page title="打印设置" name="page_print">
+						<caption pos="0,0,-0,-0" colorBkgnd="RGB(247,247,247)">
+						</caption>
+					</page>
+				</tabctrl>
+			</caption>
+		</caption>
+	</root>
+</SOUI>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="JRYPrint.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CRulerBarCode.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerDrugCode.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerEllipse.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerPDF.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerPicture.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerQRCode.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerRectangle.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerText.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerBase.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerBar.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRulerBox.cpp">
+      <Filter>ruler控件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGdiDc.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="CRulerBarCode.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerDrugCode.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerEllipse.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerPDF.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerPicture.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerQRCode.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerRectangle.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerText.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmap.h" />
+    <ClInclude Include="CRulerBase.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerBar.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRulerBox.h">
+      <Filter>ruler控件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JRYPrint.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\values\color.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\Translator\lang_cn.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\Translator\lang_jp.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>xmls</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ruler控件">
+      <UniqueIdentifier>{b837fdf3-b7b4-4126-aec4-ee3c59f21749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmls">
+      <UniqueIdentifier>{53f497c5-0a8e-4cc2-bd7f-4ef9e7605448}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>xmls</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
